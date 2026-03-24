@@ -36,7 +36,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-data = pd.read_csv("C:\\Users\\admin\\Downloads\\customers_large_dataset.csv")
+data = pd.read_csv("customers_large_dataset.csv")
 X = data[["AnnualIncome", "SpendingScore"]]
 wcss = []   
 
